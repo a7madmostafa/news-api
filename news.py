@@ -1,7 +1,6 @@
 import requests
 import os
 from dotenv import load_dotenv
-   
 
 def get_top_headlines(api_key, keyword="technology", country="us"):
     url = "https://newsapi.org/v2/top-headlines"
